@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style5.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <header>
+        <img src="/Screenshot 2024-06-06 193900.png" alt="logo" class="logo" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </header>
+    </nav>
+    <div class="left">
+      <table>
+        <tr>
+          <th>Cars</th>
+          <th>Country</th>
+          <th>Cost</th>
+        </tr>
+        <tr>
+          <td>volsewagen</td>
+          <td>Australia</td>
+          <td>$50,000</td>
+        </tr>
+        <tr>
+          <td>mercedes</td>
+          <td>Germany</td>
+          <td>$60,000</td>
+        </tr>
+        <tr>
+          <td>Ferari</td>
+          <td>USA</td>
+          <td>$100,000</td>
+        </tr>
+      </table>
+    </div>
+    <div class="right">
+      <form
+        action=""
+        method="get"
+        target="_blank"
+        onsubmit="alert('Form Submitted!')"
+      >
+        <label for="firstname">First Name</label> <br />
+        <input
+          type="text"
+          id="firstname"
+          name="firstname"
+          placeholder="First Name"
+        />
+        <br />
+        <label for="lastname">Last Name</label> <br />
+        <input
+          type="text"
+          id="lastname"
+          name="lastname"
+          placeholder="Last Name"
+        />
+        <br />
+        <p>Gender</p>
+        <label>
+          <input type="radio" name="gender" value="male" />
+          Male
+        </label>
+        <label>
+          <input type="radio" name="gender" value="female" />
+          Female
+        </label>
+        <br />
+        <label for="card">Choose Card</label> <br />
+        <label for="debitcard">Debit Card</label>
+        <input type="checkbox" name="debitcard" id="debitcard" /> <br />
+        <label for="creditcard">Credit Card</label>
+        <input type="checkbox" name="creditcard" id="creditcard" /> <br />
+        <label for="country">select a country</label>
+        <select name="country" id="country">
+          <option value="Nepal">Nepal</option>
+          <option value="Australia">Australia</option>
+          <option value="USA">USA</option>
+        </select>
+        <br />
+        <label for="date">Enter Date of Birth</label> <br />
+        <input type="date" id="date" name="dob" />
+        <br />
+        <input type="submit" name="submit" id="submit" />
+      </form>
+    </div>
+    <script>
+      alert("Welcome to the website!");
+    </script>
+  </body>
+</html>
