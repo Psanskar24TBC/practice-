@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country And Registration</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <img src="/Screenshot 2024-06-06 193900.png" alt="logo" class="logo" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">COntact</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <section class="left">
+        <table>
+          <tr>
+            <th>Country</th>
+            <th>Ranking</th>
+            <th>Population</th>
+            <th>GDP</th>
+          </tr>
+          <tr>
+            <td>USA</td>
+            <td>10th</td>
+            <td>900000979</td>
+            <td>$675765</td>
+          </tr>
+          <tr>
+            <td>China</td>
+            <td>2nd</td>
+            <td>786876788</td>
+            <td>$98797864</td>
+          </tr>
+          <tr>
+            <td>Argentina</td>
+            <td>3rd</td>
+            <td>8979789</td>
+            <td>$87887979</td>
+          </tr>
+          <tr>
+            <td>Bolivia</td>
+            <td>5th</td>
+            <td>876768</td>
+            <td>$878768</td>
+          </tr>
+          <tr>
+            <td>Austria</td>
+            <td>14th</td>
+            <td>7686768</td>
+            <td>$8797998</td>
+          </tr>
+          <tr>
+            <td>Germany</td>
+            <td>6th</td>
+            <td>6775778</td>
+            <td>$7868676</td>
+          </tr>
+          <tr>
+            <td>Nepal</td>
+            <td>100th</td>
+            <td>98797</td>
+            <td>$78688</td>
+          </tr>
+          <tr>
+            <td>AUS</td>
+            <td>7th</td>
+            <td>80000979</td>
+            <td>$987897</td>
+          </tr>
+        </table>
+      </section>
+      <section class="right">
+        <form
+          action=""
+          method="get"
+          target="_blank"
+          onsubmit="alert('Form Submitted')"
+        >
+          <label for="firstname">Enter Your First Name</label>
+          <input
+            type="text"
+            id="firstname"
+            name="firstname"
+            placeholder="First Name"
+          />
+          <br />
+          <label for="secondname">Enter Your Second Name</label>
+          <input
+            type="text"
+            id="secondname"
+            name="secondname"
+            placeholder="Second Name"
+          />
+          <br />
+          <fieldset>
+            <legend>Choose Your Gender</legend>
+            <label>
+              <input type="radio" name="gender" value="male" />
+              Male
+            </label>
+            <label>
+              <input type="radio" name="gender" value="female" />
+              Female
+            </label>
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>Choose Your Card Type</legend>
+            <label>
+              <input type="checkbox" name="card" id="debitcard" />Debit Card
+            </label>
+            <label>
+              <input type="checkbox" name="card" id="creditcard" />Credit Card
+            </label>
+          </fieldset>
+          <br />
+          <p>Choose Your Country</p>
+          <select name="country" id="country">
+            <option value="Nepal">Nepal</option>
+            <option value="USA">USA</option>
+            <option value="AUS">AUS</option>
+            <option value="China">China</option>
+            <option value="Germany">Germany</option>
+            <option value="Bolivia">Bolivia</option>
+          </select>
+          <br />
+          <input type="Submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+    <!-- <script>
+      alert("welcome to the website");
+    </script> -->
+    <footer>@2025 Copyright reserved by SANSKAR PAUDEL</footer>
+  </body>
+</html>
