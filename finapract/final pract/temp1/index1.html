@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Template 1 - Basic Layout</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="logo">MyLogo</div>
+      <nav class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Main content -->
+    <main class="container">
+      <!-- Form section -->
+      <section class="card">
+        <h2>Contact Form</h2>
+        <form action="#" method="get">
+          <label for="name">Name</label>
+          <input
+            id="name"
+            name="name"
+            type="text"
+            placeholder="Enter your name"
+          />
+
+          <label for="email">Email</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Enter your email"
+          />
+
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            placeholder="Write your message"
+          ></textarea>
+
+          <!-- Only JS: one onclick -->
+          <button type="button" onclick="alert('This is just a demo submit!')">
+            Submit
+          </button>
+        </form>
+      </section>
+
+      <!-- Table section -->
+      <section class="card">
+        <h2>Sample Table</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Item</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>First Row</td>
+              <td>Active</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Second Row</td>
+              <td>Pending</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Third Row</td>
+              <td>Completed</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2025 My Simple Website</p>
+    </footer>
+  </body>
+</html>

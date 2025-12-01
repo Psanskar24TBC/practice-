@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Template 2 - Basic Layout</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="logo">MySite Logo</div>
+      <nav class="nav-links">
+        <a href="#">Dashboard</a>
+        <a href="#">Users</a>
+        <a href="#">Settings</a>
+      </nav>
+    </header>
+
+    <!-- Main wrapper -->
+    <main class="main-wrapper">
+      <!-- Logo / hero area -->
+      <section class="hero">
+        <div class="hero-logo-box">
+          <span>LOGO</span>
+        </div>
+        <h1>Simple Admin Page</h1>
+        <p>
+          This is a basic example template with navbar, form, table and footer.
+        </p>
+      </section>
+
+      <!-- Form and Table stacked -->
+      <section class="content-grid">
+        <div class="card">
+          <h2>Login Form</h2>
+          <form action="#" method="get">
+            <label for="username">Username</label>
+            <input
+              id="username"
+              name="username"
+              type="text"
+              placeholder="Enter username"
+            />
+
+            <label for="password">Password</label>
+            <input
+              id="password"
+              name="password"
+              type="password"
+              placeholder="Enter password"
+            />
+
+            <!-- Only JS: one onclick -->
+            <button
+              type="button"
+              onclick="alert('Login button clicked (demo only)')"
+            >
+              Login
+            </button>
+          </form>
+        </div>
+
+        <div class="card">
+          <h2>User List</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>User</th>
+                <th>Role</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>101</td>
+                <td>Alice</td>
+                <td>Admin</td>
+              </tr>
+              <tr>
+                <td>102</td>
+                <td>Bob</td>
+                <td>Editor</td>
+              </tr>
+              <tr>
+                <td>103</td>
+                <td>Charlie</td>
+                <td>Viewer</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Made with basic HTML &amp; CSS | 2025</p>
+    </footer>
+  </body>
+</html>
